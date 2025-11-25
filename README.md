@@ -20,7 +20,7 @@ Ever since starting university, I've become a frequent flier and I seemed to go 
 > Since historical flight data is difficult to record and store, The data is available from 2018 to Present Day. This leaves us with 68 accurately tracked and stored flight information.
 
 ## Data Analysis
-- [ ] Scrape all flight logs from myFlightradar24
+- [ ] Download all flight logs from myFlightradar24
 - [ ] Scrape all relevant Flightera pages
 - [ ] Scrape the flight path of applicable flights
 - [ ] Match and merge all flight information into one dataset
