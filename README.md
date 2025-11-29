@@ -13,18 +13,19 @@ Ever since starting university, I've become a frequent flier and I seemed to go 
 
 ## Data Sources
 - [My flight logs on myFlightradar24](https://my.flightradar24.com/YouTube_101/flights) because I log my flights on that page
-- [Historical flight data from Flightera](https://www.flightera.net/) to get accurate timings, route, aircraft, registration information for a specific flight.
+- [Historical flight data from Flightradar24](https://www.flightradar24.com/) to get accurate timings, route, aircraft, registration information for a specific flight.
+- [Historical flight data from Flightera](https://www.flightera.net/) for extra data if necessary.
 - Some other historical flight data sites if necessary.
 
 > [!IMPORTANT]
-> Since historical flight data is difficult to record and store, The data is available from 2018 to Present Day. This leaves us with 68 accurately tracked and stored flight information.
+> Since historical flight data is difficult to record and store, The data is available from 2023 to Present Day. This leaves us with 64 accurately tracked and stored flight information.
 
 ## Data Analysis
-- [ ] Download all flight logs from myFlightradar24
-- [ ] Scrape all relevant Flightera pages
-- [ ] Scrape the flight path of applicable flights
+- [+] Download all flight logs from Flightradar24
+- [+] Download the diary file in CSV format
+- [+] Parse the data into numbers and coordinates
 - [ ] Match and merge all flight information into one dataset
-- [ ] Visualize/graph merged dataset
+- [+] Visualize/graph merged dataset
 - [ ] Answer hypotethical questions
 
 ## Hypothetical Questions
@@ -34,3 +35,21 @@ Ever since starting university, I've become a frequent flier and I seemed to go 
 - Which routes do the flights take during heavy traffic?
 - Which areas in my travel region lack public flight tracking equipment/susceptible to radar jamming?
 - ...and more as we go
+
+## Data Visualisation
+
+### 1. Distribution of flights based on Linear Path vs Actual Path
+![Linear vs Actual Path](graphimages/g1.png)
+
+**Finding:** Flights are taking place in a most straight-ish line as possible. The higher on the y-axis the flight is on this graph, the more it spent time on the air near the arriving airport without landing.
+
+
+### 2. Bar graph of flights' departure punctuality
+![Departure Punctuality](graphimages/g2.png)
+
+**Finding:** The 'scheduled' departure time isn't as accurate as it sounds. Assuming most of the flights were not reported to the airport screens as 'delayed', on most flights, the aircraft starts up their transponders 10-30m after scheduled time and they depart the airport 15-45m after scheduled time.
+
+### 3. Bar graph of flights' arrival punctuality
+![Arrival Punctuality](graphimages/g3.png)
+
+**Finding:** Comparing between this and the previous graph shows us that some airlines account a little more time on their 'scheduled' arrival time to make it sound that they arrive on time. However, most flights arrive and start the de-boarding process 10-40m after scheduled arrival time.
