@@ -2,15 +2,15 @@
 Date,FlightNumber,From,To,Departure,Arrival,Duration,Airline,Aircraft,Registration,Seat,Seat type,Class,Reason,IsInternational,DepID,ArrID,AirlineID,AircraftID,TicketPrice
 2018-07-22,TK1981,Istanbul / Ataturk (ISL/LTBA),London / Gatwick (LGW/EGKK),07:25:00,09:35:00,04:10:00,Turkish Airlines (TK/THY),Airbus A321LR (A21N),TC-JTL,,2,1,1,1,1284,1614,769,2181,
 2018-08-05,TK1972,London / Heathrow (LHR/EGLL),Istanbul / Ataturk (ISL/LTBA),18:25:00,00:20:00,03:55:00,Turkish Airlines (TK/THY),Boeing 777-300ER (B77W),TC-LJA,,3,1,1,1,1618,1284,769,2023,
-2018-08-06,TK2252,Istanbul / Ataturk (ISL/LTBA),Antakya / Hatay (HTY/LTAK),10:00:00,11:45:00,01:45:00,Turkish Airlines (TK/THY),Boeing 737-800 (B738),TC-JGG,,1,1,1,0,1284,4623,769,231,
-2018-07-21,TK2257,Antakya / Hatay (HTY/LTAK),Istanbul / Ataturk (ISL/LTBA),05:10:00,06:50:00,01:40:00,Turkish Airlines (TK/THY),Boeing 737-800 (B738),TC-JSF,,3,1,1,0,4623,1284,769,231,
+2018-08-06,TK2252,Istanbul / Ataturk (ISL/LTBA),Antakya / Hatay (HTY/LTDA),10:00:00,11:45:00,01:45:00,Turkish Airlines (TK/THY),Boeing 737-800 (B738),TC-JGG,,1,1,1,0,1284,4623,769,231,
+2018-07-21,TK2257,Antakya / Hatay (HTY/LTDA),Istanbul / Ataturk (ISL/LTBA),05:10:00,06:50:00,01:40:00,Turkish Airlines (TK/THY),Boeing 737-800 (B738),TC-JSF,,3,1,1,0,4623,1284,769,231,
 2016-05-18,PC1021,Istanbul / Sabiha Gokcen (SAW/LTFJ),Munich / Franz Josef Strauss (MUC/EDDM),12:25:00,13:10:00,01:45:00,Pegasus Airlines (PC/PGT),Airbus A320neo (A20N),,,1,1,1,1,3659,1952,1014,2127,
 2016-05-18,PC2081,Adana / Sakirpasa (ADA/LTAF),Istanbul / Sabiha Gokcen (SAW/LTFJ),08:45:00,10:20:00,01:35:00,Pegasus Airlines (PC/PGT),Airbus A321-200 (A321),,,1,1,1,0,34,3659,1014,2076,
 2016-05-21,TK2466,Istanbul / Ataturk (ISL/LTBA),Adana / Sakirpasa (ADA/LTAF),16:45:00,18:25:00,01:50:00,Turkish Airlines (TK/THY),Boeing 737-800 (B738),,,1,1,1,0,1284,34,769,231,
 2014-05-02,TK2460,Istanbul / Sabiha Gokcen (SAW/LTFJ),Adana / Sakirpasa (ADA/LTAF),12:15:00,13:55:00,01:40:00,AnadoluJet (TK/AJA),Airbus A321-200 (A321),,,1,1,1,0,3659,34,1350,2076,
 2014-04-25,TK2481,Adana / Sakirpasa (ADA/LTAF),Istanbul / Sabiha Gokcen (SAW/LTFJ),12:40:00,14:30:00,01:50:00,AnadoluJet (TK/AJA),Boeing 737-800 (B738),,,1,1,1,0,34,3659,1350,231,
-2022-11-25,TK2253,Antakya / Hatay (HTY/LTAK),Istanbul / Istanbul Airport (IST/LTFM),04:00:00,05:55:00,01:55:00,Turkish Airlines (TK/THY),Boeing 737-700 (B737),TC-JHV,,1,1,1,0,4623,8949,769,230,
-2022-11-25,PC2134,Istanbul / Sabiha Gokcen (SAW/LTFJ),Antakya / Hatay (HTY/LTAK),19:30:00,21:10:00,01:40:00,Pegasus Airlines (PC/PGT),Airbus A320neo (A20N),TC-DGC,,3,1,1,0,3659,4623,1014,2127,
+2022-11-25,TK2253,Antakya / Hatay (HTY/LTDA),Istanbul / Istanbul Airport (IST/LTFM),04:00:00,05:55:00,01:55:00,Turkish Airlines (TK/THY),Boeing 737-700 (B737),TC-JHV,,1,1,1,0,4623,8949,769,230,
+2022-11-25,PC2134,Istanbul / Sabiha Gokcen (SAW/LTFJ),Antakya / Hatay (HTY/LTDA),19:30:00,21:10:00,01:40:00,Pegasus Airlines (PC/PGT),Airbus A320neo (A20N),TC-DGC,,3,1,1,0,3659,4623,1014,2127,
 2017-05-04,XQ9007,Adana / Sakirpasa (ADA/LTAF),Izmir / Adnan Menderes (ADB/LTBJ),08:40:00,10:10:00,01:30:00,SunExpress (XQ/SXS),Boeing 737-800 (B738),,,2,1,1,0,34,36,746,231,
 2017-05-07,XQ9306,Izmir / Adnan Menderes (ADB/LTBJ),Adana / Sakirpasa (ADA/LTAF),20:40:00,22:05:00,01:25:00,SunExpress (XQ/SXS),Boeing 737-800 (B738),,,1,1,1,0,36,34,746,231,
 2023-08-02,PC1854,Adana / Sakirpasa (ADA/LTAF),Ercan / Ercan (ECN/LCEN),15:40:00,16:30:00,00:50:00,Pegasus Airlines (PC/PGT),Airbus A320neo (A20N),TC-NBN,,1,1,4,1,34,3646,1014,2127,
@@ -42,14 +42,14 @@ Date,FlightNumber,From,To,Departure,Arrival,Duration,Airline,Aircraft,Registrati
 2024-07-13,TK1861,Istanbul / Istanbul Airport (IST/LTFM),Rome / Leonardo da Vinci-Fiumicino (FCO/LIRF),08:15:00,09:50:00,02:35:00,Turkish Airlines (TK/THY),Airbus A330-300 (A333),TC-JOF,26F,2,1,1,1,8949,872,769,31,
 2024-07-20,TK1870,Venice / Marco Polo (VCE/LIPZ),Istanbul / Istanbul Airport (IST/LTFM),20:10:00,23:40:00,02:30:00,Turkish Airlines (TK/THY),Airbus A321 (A321),TC-JTD,18D,3,1,1,1,3148,8949,769,28,
 2024-07-12,TK2191,Ankara / Esenboga (ESB/LTAC),Istanbul / Istanbul Airport (IST/LTFM),03:10:00,04:25:00,01:15:00,Turkish Airlines (TK/THY),Airbus A320 (A320),TC-JPN,20A,1,1,1,0,833,8949,769,27,
-2024-07-21,TK2254,Istanbul / Istanbul Airport (IST/LTFM),Antakya / Hatay (HTY/LTAK),06:40:00,08:30:00,01:50:00,Turkish Airlines (TK/THY),Boeing 737-800 (B738),TC-JVA,10F,1,1,1,0,8949,4623,769,231,
+2024-07-21,TK2254,Istanbul / Istanbul Airport (IST/LTFM),Antakya / Hatay (HTY/LTDA),06:40:00,08:30:00,01:50:00,Turkish Airlines (TK/THY),Boeing 737-800 (B738),TC-JVA,10F,1,1,1,0,8949,4623,769,231,
 2024-08-17,SM3708,Ankara / Esenboga (ESB/LTAC),Sharm el Sheikh / Sharm el-Sheik Intl (SSH/HESH),19:15:00,20:15:00,02:00:00,Air Cairo (MC/MSC),Embraer ERJ-190 (E190),SU-BVH,10A,1,1,1,1,833,3630,1264,655,
 2024-08-24,SM3707,Sharm el Sheikh / Sharm el-Sheik Intl (SSH/HESH),Ankara / Esenboga (ESB/LTAC),15:00:00,18:15:00,02:15:00,Air Cairo (MC/MSC),Embraer ERJ-190 (E190),,,1,1,1,1,3630,833,1264,655,
 2024-08-20,SM180,Sharm el Sheikh / Sharm el-Sheik Intl (SSH/HESH),Cairo / Cairo (CAI/HECA),06:05:00,07:05:00,01:00:00,Air Cairo (SM/MSC),Airbus A320neo (A20N),,19F,1,1,1,0,3630,475,1776,2127,
 2024-08-20,SM18,Cairo / Cairo (CAI/HECA),Sharm el Sheikh / Sharm el-Sheik Intl (SSH/HESH),21:30:00,22:30:00,01:00:00,Air Cairo (SM/MSC),Airbus A320 (A320),SU-BVP,21F,1,1,1,0,475,3630,1776,27,
 2024-09-17,PC2083,Mersin / Mersin Cukurova International Airport (COV/LTDB),Istanbul / Sabiha Gokcen (SAW/LTFJ),10:10:00,12:45:00,02:35:00,Pegasus Airlines (PC/PGT),Airbus A321-200 (A321),TC-RBO,8A,1,1,1,0,10071,3659,1014,2076,
-2024-10-25,VF3242,Istanbul / Sabiha Gokcen (SAW/LTFJ),Antakya / Hatay (HTY/LTAK),18:15:00,20:00:00,01:45:00,AJet Airlines (VF/TKJ),Airbus A321 (A321),9H-SLG,37C,3,1,1,0,3659,4623,3126,28,
-2024-10-29,VF3243,Antakya / Hatay (HTY/LTAK),Istanbul / Sabiha Gokcen (SAW/LTFJ),19:20:00,21:10:00,01:50:00,AJet Airlines (VF/TKJ),Boeing 737 MAX 8 (B38M),9H-TAU,10F,1,4,1,0,4623,3659,3126,2123,
+2024-10-25,VF3242,Istanbul / Sabiha Gokcen (SAW/LTFJ),Antakya / Hatay (HTY/LTDA),18:15:00,20:00:00,01:45:00,AJet Airlines (VF/TKJ),Airbus A321 (A321),9H-SLG,37C,3,1,1,0,3659,4623,3126,28,
+2024-10-29,VF3243,Antakya / Hatay (HTY/LTDA),Istanbul / Sabiha Gokcen (SAW/LTFJ),19:20:00,21:10:00,01:50:00,AJet Airlines (VF/TKJ),Boeing 737 MAX 8 (B38M),9H-TAU,10F,1,4,1,0,4623,3659,3126,2123,
 2024-11-22,TK2858,Istanbul / Istanbul Airport (IST/LTFM),Amasya / Merzifon (MZH/LTAP),17:45:00,19:15:00,01:30:00,Turkish Airlines (TK/THY),Boeing 737-800 (B738),TC-JHZ,9F,1,4,1,0,8949,2001,769,231,
 2024-12-06,TO3289,Istanbul / Istanbul Airport (IST/LTFM),Paris / Orly (ORY/LFPO),18:55:00,20:55:00,03:00:00,Transavia.com France (TO/TVF),Boeing 737-800 (B738),F-HUYH,10F,1,1,1,1,8949,2215,1397,231,4479.42
 2024-12-08,TO3288,Paris / Orly (ORY/LFPO),Istanbul / Istanbul Airport (IST/LTFM),14:10:00,19:50:00,04:40:00,Transavia.com France (TO/TVF),Boeing 737-800 (B738),F-GZHX,10F,1,1,1,1,2215,8949,1397,231,4479.42
@@ -60,21 +60,21 @@ Date,FlightNumber,From,To,Departure,Arrival,Duration,Airline,Aircraft,Registrati
 2025-01-26,TK1762,Helsinki / Vantaa (HEL/EFHK),Istanbul / Istanbul Airport (IST/LTFM),12:25:00,17:15:00,04:50:00,Turkish Airlines (TK/THY),Boeing 737-800 (B738),TC-JVI,25D,3,1,1,1,1110,8949,769,231,7277.88
 2025-01-26,TK2466,Istanbul / Istanbul Airport (IST/LTFM),Mersin / Mersin Cukurova International Airport (COV/LTDB),18:55:00,20:30:00,01:35:00,Turkish Airlines (TK/THY),Airbus A321 (A321),TC-LTK,10F,1,1,1,0,8949,10071,769,28,2302
 2024-11-25,PC2781,Amasya / Merzifon (MZH/LTAP),Istanbul / Sabiha Gokcen (SAW/LTFJ),15:30:00,16:55:00,01:25:00,Pegasus Airlines (PC/PGT),Airbus A320neo (A20N),TC-NBN,10A,1,1,1,0,2001,3659,1014,2127,
-2024-12-29,VF3243,Antakya / Hatay (HTY/LTAK),Istanbul / Sabiha Gokcen (SAW/LTFJ),21:15:00,23:05:00,01:50:00,AJet Airlines (VF/TKJ),Boeing 737 MAX 8 (B38M),9H-TAU,8F,1,1,1,0,4623,3659,3126,2123,
-2024-12-20,VF3242,Istanbul / Sabiha Gokcen (SAW/LTFJ),Antakya / Hatay (HTY/LTAK),17:45:00,19:25:00,01:40:00,AJet Airlines (VF/TKJ),Boeing 737 MAX 8 (B38M),9H-CHI,8F,1,1,1,0,3659,4623,3126,2123,
-2025-02-04,VF3243,Antakya / Hatay (HTY/LTAK),Istanbul / Sabiha Gokcen (SAW/LTFJ),19:20:00,21:10:00,01:50:00,AJet Airlines (VF/TKJ),Boeing 737-800 (B738),TC-JFP,22F,1,1,1,0,4623,3659,3126,231,
+2024-12-29,VF3243,Antakya / Hatay (HTY/LTDA),Istanbul / Sabiha Gokcen (SAW/LTFJ),21:15:00,23:05:00,01:50:00,AJet Airlines (VF/TKJ),Boeing 737 MAX 8 (B38M),9H-TAU,8F,1,1,1,0,4623,3659,3126,2123,
+2024-12-20,VF3242,Istanbul / Sabiha Gokcen (SAW/LTFJ),Antakya / Hatay (HTY/LTDA),17:45:00,19:25:00,01:40:00,AJet Airlines (VF/TKJ),Boeing 737 MAX 8 (B38M),9H-CHI,8F,1,1,1,0,3659,4623,3126,2123,
+2025-02-04,VF3243,Antakya / Hatay (HTY/LTDA),Istanbul / Sabiha Gokcen (SAW/LTFJ),19:20:00,21:10:00,01:50:00,AJet Airlines (VF/TKJ),Boeing 737-800 (B738),TC-JFP,22F,1,1,1,0,4623,3659,3126,231,
 2025-03-28,TK2858,Istanbul / Istanbul Airport (IST/LTFM),Amasya / Merzifon (MZH/LTAP),17:45:00,19:15:00,01:30:00,Turkish Airlines (TK/THY),Boeing 737-800 (B738),TC-JVR,7F,1,1,1,0,8949,2001,769,231,
 2025-04-06,TK2859,Amasya / Merzifon (MZH/LTAP),Istanbul / Istanbul Airport (IST/LTFM),19:25:00,21:00:00,01:35:00,Turkish Airlines (TK/THY),Airbus A321 (A321),TC-JSJ,3A,1,1,1,0,2001,8949,769,28,
-2025-04-25,TK2254,Istanbul / Istanbul Airport (IST/LTFM),Antakya / Hatay (HTY/LTAK),12:55:00,14:45:00,01:50:00,Turkish Airlines (TK/THY),Airbus A321 (A321),TC-JRT,02A,1,2,1,0,8949,4623,769,28,
-2025-04-27,TK2255,Antakya / Hatay (HTY/LTAK),Istanbul / Istanbul Airport (IST/LTFM),15:30:00,17:30:00,02:00:00,Turkish Airlines (TK/THY),Airbus A321 (A321),TC-JRS,10A,1,4,1,0,4623,8949,769,28,
-2025-05-16,VF3242,Istanbul / Sabiha Gokcen (SAW/LTFJ),Antakya / Hatay (HTY/LTAK),10:35:00,12:20:00,01:45:00,AJet Airlines (VF/TKJ),Airbus A321neo (A21N),TC-LUE,19F,1,1,1,0,3659,4623,3126,2128,
-2025-05-19,VF3243,Antakya / Hatay (HTY/LTAK),Istanbul / Sabiha Gokcen (SAW/LTFJ),13:05:00,14:50:00,01:45:00,AJet Airlines (VF/TKJ),Boeing 737 MAX 8 (B38M),TC-LAG,27F,1,1,1,0,4623,3659,3126,2123,
+2025-04-25,TK2254,Istanbul / Istanbul Airport (IST/LTFM),Antakya / Hatay (HTY/LTDA),12:55:00,14:45:00,01:50:00,Turkish Airlines (TK/THY),Airbus A321 (A321),TC-JRT,02A,1,2,1,0,8949,4623,769,28,
+2025-04-27,TK2255,Antakya / Hatay (HTY/LTDA),Istanbul / Istanbul Airport (IST/LTFM),15:30:00,17:30:00,02:00:00,Turkish Airlines (TK/THY),Airbus A321 (A321),TC-JRS,10A,1,4,1,0,4623,8949,769,28,
+2025-05-16,VF3242,Istanbul / Sabiha Gokcen (SAW/LTFJ),Antakya / Hatay (HTY/LTDA),10:35:00,12:20:00,01:45:00,AJet Airlines (VF/TKJ),Airbus A321neo (A21N),TC-LUE,19F,1,1,1,0,3659,4623,3126,2128,
+2025-05-19,VF3243,Antakya / Hatay (HTY/LTDA),Istanbul / Sabiha Gokcen (SAW/LTFJ),13:05:00,14:50:00,01:45:00,AJet Airlines (VF/TKJ),Boeing 737 MAX 8 (B38M),TC-LAG,27F,1,1,1,0,4623,3659,3126,2123,
 2025-06-02,TK2854,Istanbul / Istanbul Airport (IST/LTFM),Amasya / Merzifon (MZH/LTAP),06:10:00,07:35:00,01:25:00,Turkish Airlines (TK/THY),Boeing 737-800 (B738),TC-JHZ,9F,1,4,1,0,8949,2001,769,231,4447.53
 2025-07-02,TK2455,Mersin / Mersin Cukurova International Airport (COV/LTDB),Istanbul / Istanbul Airport (IST/LTFM),08:35:00,10:25:00,01:14:00,Turkish Airlines (TK/THY),Boeing 737-900 (B739),TC-JYG,19F,1,1,1,0,10071,8949,769,232,2989.92
 2025-07-01,TK1079,Istanbul / Istanbul Airport (IST/LTFM),Belgrade / Nikola Tesla Beograd (BEG/LYBE),14:20:00,15:10:00,01:50:00,Turkish Airlines (TK/THY),Airbus A321 (A321),TC-JTG,24A,1,1,1,1,8949,261,769,28,4500
 2025-07-09,TK1080,Belgrade / Nikola Tesla Beograd (BEG/LYBE),Istanbul / Istanbul Airport (IST/LTFM),16:00:00,18:50:00,01:50:00,Turkish Airlines (TK/THY),Airbus A321 (A321),TC-JTO,24D,3,1,1,1,261,8949,769,28,4500
 2025-07-09,TK2476,Istanbul / Istanbul Airport (IST/LTFM),Mersin / Mersin Cukurova International Airport (COV/LTDB),23:55:00,00:35:00,01:40:00,Turkish Airlines (TK/THY),Airbus A321-200 (A321),TC-JMH,15F,1,1,1,0,8949,10071,769,2076,2639.92
-2025-09-27,TK2255,Antakya / Hatay (HTY/LTAK),Istanbul / Istanbul Airport (IST/LTFM),15:30:00,17:30:00,02:00:00,Turkish Airlines (TK/THY),Boeing 737 MAX 8 (B38M),TC-LCH,07F,1,4,1,0,4623,8949,769,2123,3315.60
-2025-10-24,VF3244,Istanbul / Sabiha Gokcen (SAW/LTFJ),Antakya / Hatay (HTY/LTAK),18:40:00,20:15:00,01:35:00,AJet Airlines (VF/TKJ),Airbus A321neo (A21N),TC-LTV,2F,1,4,1,0,3659,4623,3126,2128,3546.39
-2025-10-26,VF3243,Antakya / Hatay (HTY/LTAK),Istanbul / Sabiha Gokcen (SAW/LTFJ),20:20:00,22:10:00,01:50:00,AJet Airlines (VF/TKJ),Boeing 737 MAX 8 (B38M),TC-LAK,2F,1,4,1,0,4623,3659,3126,2123,3546.39
+2025-09-27,TK2255,Antakya / Hatay (HTY/LTDA),Istanbul / Istanbul Airport (IST/LTFM),15:30:00,17:30:00,02:00:00,Turkish Airlines (TK/THY),Boeing 737 MAX 8 (B38M),TC-LCH,07F,1,4,1,0,4623,8949,769,2123,3315.60
+2025-10-24,VF3244,Istanbul / Sabiha Gokcen (SAW/LTFJ),Antakya / Hatay (HTY/LTDA),18:40:00,20:15:00,01:35:00,AJet Airlines (VF/TKJ),Airbus A321neo (A21N),TC-LTV,2F,1,4,1,0,3659,4623,3126,2128,3546.39
+2025-10-26,VF3243,Antakya / Hatay (HTY/LTDA),Istanbul / Sabiha Gokcen (SAW/LTFJ),20:20:00,22:10:00,01:50:00,AJet Airlines (VF/TKJ),Boeing 737 MAX 8 (B38M),TC-LAK,2F,1,4,1,0,4623,3659,3126,2123,3546.39
 2025-11-28,TK2858,Istanbul / Istanbul Airport (IST/LTFM),Amasya / Merzifon (MZH/LTAP),18:00:00,19:25:00,01:25:00,Turkish Airlines (TK/THY),Boeing 737-800 (B738),TC-JHP,3F,1,4,1,0,8949,2001,769,231
