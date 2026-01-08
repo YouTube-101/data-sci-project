@@ -14,11 +14,11 @@ Ever since starting university, I've become a frequent flier and I seemed to go 
 ## Data Sources
 - [My flight logs on myFlightradar24](https://my.flightradar24.com/YouTube_101/flights) because I log my flights on that page
 - [Historical flight data from Flightradar24](https://www.flightradar24.com/) to get accurate timings, route, aircraft, registration information for a specific flight.
-- [Historical flight data from Flightera](https://www.flightera.net/) for extra data if necessary.
-- Some other historical flight data sites if necessary.
+- [METAR data from Iowa Environmental Mesonet](https://mesonet.agron.iastate.edu/request/download.phtml) for weather details around visited airports.
+- Estimated ticket prices
 
 > [!IMPORTANT]
-> Since historical flight data is difficult to record and store, The data is available from 2023 to Present Day. This leaves us with 64 accurately tracked and stored flight information.
+> Since historical flight data is difficult to record and store, The data is available from 2023 to Present Day. This leaves us with 65 accurately tracked and stored flight information.
 
 ## Data Analysis
 - [+] Download all flight logs from Flightradar24
