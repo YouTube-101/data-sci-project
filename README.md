@@ -80,3 +80,6 @@ R-squared (% of ticket based on distance): 53%
 
 > [!IMPORTANT]
 > The prices were estimated from knowledge/bank statements/tour pricing for flights. The price includes everything I paid for.
+
+### Correlation Matrix of variables used for this phase
+![Corellation Matrix](graphimages/g5.png)
