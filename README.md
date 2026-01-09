@@ -29,14 +29,6 @@ Ever since starting university, I've become a frequent flier and I seemed to go 
 - [ ] Answer hypotethical questions
 - [ ] Create a model for predicting price/punctuality
 
-## Hypothetical Questions
-- Which airline/airport is the most punctual I've been to?
-- Which flights take the longer route to get to their destination?
-- Which flights actually get delayed even if there isn't a delay?
-- Which routes do the flights take during heavy traffic?
-- Which areas in my travel region lack public flight tracking equipment/susceptible to radar jamming?
-- ...and more as we go
-
 ## Data Visualisation
 
 ### 1. Distribution of flights based on Linear Path vs Actual Path
@@ -59,3 +51,32 @@ Ever since starting university, I've become a frequent flier and I seemed to go 
 ![Corellation Matrix](graphimages/g4.png)
 
 **Finding:** There is a sufficient correlation between the ticket price and the linear distance along with the flight time. Most Items there are not as sufficient as usual.
+
+## Hypothesis Testing
+
+### Does weather affect my flights?
+- **Null Hypothesis H₀:** There is no difference in departure delays between days with good weather and days with bad weather.
+- **Alternative Hypothesis H₁:** There are longer delays on days with bad weather than days with good weather.
+- **Method:** T-Test. Find the p value and reject the hypothesis if it's under 0.05
+- **Result:** P-value: 0.53 - NOT SIGNIFICANT. Delays weren't caused by weather.
+
+### Does air traffic affect my arrival delay?
+- **Null Hypothesis H₀:** There is no difference in flight duration between flights on larger arrival traffic and on lower arrival traffic.
+- **Alternative Hypothesis H₁:** The flights take longer to complete during larger arrival traffic than lower arrival traffic.
+- **Method:** Pearson correlation. Find the correlation value to and reject the hypothesis if it's near 1. Use the p value to confirm the readings.
+- **Result:** Correlation: 0.23, P-value: 0.059 - MARGINALLY SIGNIFICANT. Traffic may cause arrival delays but it's not a trend.
+
+> [!IMPORTANT]
+> Some flights have stopped before reaching their final destinations due to insufficient coverage of Flightradar24 which may affect this decision of not rejecting this hypothesis
+
+### Does distance affect my ticket price?
+- **Null Hypothesis H₀:** Distance has no effect on my ticket prices.
+- **Alternative Hypothesis H₁:** Longer flights were more expensive.
+- **Method:** Linear regression. Find the slope, R-squared value and P-value. Reject the hypothesis if P-value is below 0.05
+- **Variables:** Slope (Liras per kilometer): TRY2.47,
+R-squared (% of ticket based on distance): 0.53%
+- **Result:** P-value: 0.000000000003 - SIGNIFICANT. Distance is a reliable predictor of price.
+
+
+> [!IMPORTANT]
+> The prices were estimated from knowledge/bank statements/tour pricing for flights. The price includes everything I paid for.
