@@ -21,13 +21,13 @@ Ever since starting university, I've become a frequent flier and I seemed to go 
 > Despite there were 81 flights I've been on, If we discard the flights before 2023 due to the unavailability of data and discard a couple flights which weren't accurately tracked, we are left with 65 flights.
 
 ## Data Analysis
-- [+] Download all flight logs from Flightradar24
-- [+] Download the diary file in CSV format
-- [+] Parse the data into numbers and coordinates
-- [+] Match and merge all flight information into one dataset
-- [+] Visualize/graph merged dataset
-- [ ] Answer hypotethical questions
-- [ ] Create a model for predicting price/punctuality
+- Download all flight logs from Flightradar24
+- Download the diary file in CSV format
+- Parse the data into numbers and coordinates
+- Match and merge all flight information into one dataset
+- Visualize/graph merged dataset
+- Answer hypotethical questions
+- Create a model for predicting price/punctuality
 
 ## Data Visualisation
 
