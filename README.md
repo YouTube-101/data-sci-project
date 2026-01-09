@@ -13,20 +13,21 @@ Ever since starting university, I've become a frequent flier and I seemed to go 
 
 ## Data Sources
 - [My flight logs on myFlightradar24](https://my.flightradar24.com/YouTube_101/flights) because I log my flights on that page
-- [Historical flight data from Flightradar24](https://www.flightradar24.com/) to get accurate timings, route, aircraft, registration information for a specific flight.
+- [Historical flight data from Flightradar24](https://www.flightradar24.com/) to get accurate timings, route, aircraft, registration information, estimated traffic information for a specific flight.
 - [METAR data from Iowa Environmental Mesonet](https://mesonet.agron.iastate.edu/request/download.phtml) for weather details around visited airports.
-- Estimated ticket prices
+- Estimated ticket prices from my bank statements/memory.
 
 > [!IMPORTANT]
-> Since historical flight data is difficult to record and store, The data is available from 2023 to Present Day. This leaves us with 65 accurately tracked and stored flight information.
+> Despite there were 81 flights I've been on, If we discard the flights before 2023 due to the unavailability of data and discard a couple flights which weren't accurately tracked, we are left with 65 flights.
 
 ## Data Analysis
 - [+] Download all flight logs from Flightradar24
 - [+] Download the diary file in CSV format
 - [+] Parse the data into numbers and coordinates
-- [ ] Match and merge all flight information into one dataset
+- [+] Match and merge all flight information into one dataset
 - [+] Visualize/graph merged dataset
 - [ ] Answer hypotethical questions
+- [ ] Create a model for predicting price/punctuality
 
 ## Hypothetical Questions
 - Which airline/airport is the most punctual I've been to?
@@ -53,3 +54,8 @@ Ever since starting university, I've become a frequent flier and I seemed to go 
 ![Arrival Punctuality](graphimages/g3.png)
 
 **Finding:** Comparing between this and the previous graph shows us that some airlines account a little more time on their 'scheduled' arrival time to make it sound that they arrive on time. However, most flights arrive and start the de-boarding process 10-40m after scheduled arrival time.
+
+### 4. Corellation Matrix
+![Corellation Matrix](graphimages/g4.png)
+
+**Finding:** There is a sufficient correlation between the ticket price and the linear distance along with the flight time. Most Items there are not as sufficient as usual.
