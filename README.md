@@ -82,3 +82,13 @@ Ever since starting university, I've become a frequent flier and I seemed to go 
 ### Correlation Matrix of variables used for this phase
 ![Corellation Matrix](graphimages/g5.png)
 
+## Machine Learning
+
+### Ticket Price Prediction
+- **Inputs:** Distance, Traffic, Wind Speeds
+- **Outputs:** Ticket Price
+- **Method:** Random Forest Regression with 80% training ratio
+- **Results:** 64% Accuracy, TRY913 average error.
+- **Feature Importance:** Distance is the major factor on deciding the price.
+![Feature Importance](graphimages/g6.png)
+

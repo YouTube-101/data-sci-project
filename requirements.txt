@@ -5,3 +5,4 @@ os
 seaborn
 geopy
 scipy
+scikit-learn
