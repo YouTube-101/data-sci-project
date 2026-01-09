@@ -63,7 +63,7 @@ Ever since starting university, I've become a frequent flier and I seemed to go 
 ### Does air traffic affect my arrival delay?
 - **Null Hypothesis H₀:** There is no difference in flight duration between flights on larger arrival traffic and on lower arrival traffic.
 - **Alternative Hypothesis H₁:** The flights take longer to complete during larger arrival traffic than lower arrival traffic.
-- **Method:** Pearson correlation. Find the correlation value to and reject the hypothesis if it's near 1. Use the p value to confirm the readings.
+- **Method:** Pearson correlation. Find the correlation value and p value to and reject the hypothesis if it's below 0.05
 - **Result:** Correlation: 0.23, P-value: 0.059 - MARGINALLY SIGNIFICANT. Traffic may cause arrival delays but it's not a trend.
 
 > [!IMPORTANT]
@@ -74,7 +74,7 @@ Ever since starting university, I've become a frequent flier and I seemed to go 
 - **Alternative Hypothesis H₁:** Longer flights were more expensive.
 - **Method:** Linear regression. Find the slope, R-squared value and P-value. Reject the hypothesis if P-value is below 0.05
 - **Variables:** Slope (Liras per kilometer): TRY2.47,
-R-squared (% of ticket based on distance): 0.53%
+R-squared (% of ticket based on distance): 53%
 - **Result:** P-value: 0.000000000003 - SIGNIFICANT. Distance is a reliable predictor of price.
 
 
