@@ -72,10 +72,8 @@ Ever since starting university, I've become a frequent flier and I seemed to go 
 ### Does distance affect my ticket price?
 - **Null Hypothesis H₀:** Distance has no effect on my ticket prices.
 - **Alternative Hypothesis H₁:** Longer flights were more expensive.
-- **Method:** Linear regression. Find the slope, R-squared value and P-value. Reject the hypothesis if P-value is below 0.05
-- **Variables:** Slope (Liras per kilometer): TRY2.47,
-R-squared (% of ticket based on distance): 53%
-- **Result:** P-value: 0.000000000003 - SIGNIFICANT. Distance is a reliable predictor of price.
+- **Method:** Pearson correlation. Check strength with Correlation. Find the correlation value and p value to and reject the hypothesis if it's below 0.05
+- **Result:** Correlation: 0.73, P-value: 0.000000000003 - SIGNIFICANT. Distance is a reliable predictor of price.
 
 
 > [!IMPORTANT]
@@ -83,3 +81,4 @@ R-squared (% of ticket based on distance): 53%
 
 ### Correlation Matrix of variables used for this phase
 ![Corellation Matrix](graphimages/g5.png)
+
