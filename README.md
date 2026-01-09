@@ -91,4 +91,14 @@ Ever since starting university, I've become a frequent flier and I seemed to go 
 - **Results:** 64% Accuracy, TRY913 average error.
 - **Feature Importance:** Distance is the major factor on deciding the price.
 ![Feature Importance](graphimages/g6.png)
+- **Actual vs Predicted Prices:** It reflects the 64% accuracy its having right now.
+![Accuracy](graphimages/g7.png)
 
+> [!NOTE]
+> This was a regression task that predicts a number and not a classification task that predicts a binary yes/no. For this reason, the model was evaluated with R-square and MAE rather than a ROC curve.
+
+## Limitations and Future Work
+- Despite me trying to gather every data I could think of, There are some mysterious luck-based events that determine the outcome of a flight. There could be more data points to be added but for now, this is all I have.
+- There aren't many data points where flights can show up on flight tracker sites with their coordinates due to radio interference. People's contributions to flight tracker sites are essential for gathering path data here.
+- It'd be nice to make an interface program that predicts price and delay of a future flight just by getting data from distance and live weather details.
+- Making python gather METAR data by itself by looking at the diary itself.
